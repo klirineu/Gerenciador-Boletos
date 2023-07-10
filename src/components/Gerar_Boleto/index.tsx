@@ -155,7 +155,7 @@ export default function GerarBoleto() {
                   fileName={`${nomeCliente} - CPF ${cpfCnpj} .pdf`}
                 >
                   {({ blob, url, loading, error }) =>
-                    loading ? 'Carregando documento...' : 'Gerar Boleto'
+                    loading ? 'Carregando...' : 'Gerar Boleto'
                   }
                 </PDFDownloadLink>
               )}
