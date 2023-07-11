@@ -78,7 +78,7 @@ export default function Login() {
             <DisplayTypography DisplayTypography="permanecer conectado." />
           </ContentCheckField>
         </ContentFields>
-        <ButtonLogin>
+        <ButtonLogin onClick={handleLogin}>
           <DisplayTypography DisplayTypography="entrar" />
         </ButtonLogin>
       </ContentLogin>
